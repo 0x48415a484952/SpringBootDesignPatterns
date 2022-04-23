@@ -7,7 +7,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Cat implements Pet {
-
     private String name;
     private final String type = getAnimal().getType();
     private final String sound = getAnimal().getSound();
@@ -22,5 +21,4 @@ public class Cat implements Pet {
     public Animal getAnimal() {
         return Animal.CAT;
     }
-
 }

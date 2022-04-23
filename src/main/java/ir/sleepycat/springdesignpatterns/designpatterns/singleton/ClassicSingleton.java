@@ -1,7 +1,6 @@
 package ir.sleepycat.springdesignpatterns.designpatterns.singleton;
 
 public class ClassicSingleton {
-
     private static ClassicSingleton instance;
 
     private ClassicSingleton() {

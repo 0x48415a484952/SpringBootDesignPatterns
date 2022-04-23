@@ -8,10 +8,8 @@ import lombok.Setter;
 @Setter
 @Builder
 public class PetDto {
-
     private String name;
     private String type;
     private String sound;
     private String group;
-
 }

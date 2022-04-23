@@ -16,7 +16,6 @@ import java.util.Locale;
 @RestController
 @RequestMapping("/")
 public class AppController {
-
     private final PetFactory petFactory;
 
     AppController(PetFactory petFactory) {
@@ -47,5 +46,4 @@ public class AppController {
                 .build();
         return new ResponseEntity<>(contact, HttpStatus.OK);
     }
-
 }
